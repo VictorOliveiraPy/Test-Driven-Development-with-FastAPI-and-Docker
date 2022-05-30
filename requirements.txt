@@ -1,0 +1,11 @@
+anyio @ file:///home/victor.oliveira/.cache/pypoetry/artifacts/0c/d5/43/4fc9337721753aedb8e75e6c2472ed6d6a77abfca1ed6c854192e770b3/anyio-3.6.1-py3-none-any.whl
+asgiref @ file:///home/victor.oliveira/.cache/pypoetry/artifacts/cf/65/18/1451154a3ac6f8e749a6f7485ce77472fc1b339d4696f7a4cb816ac781/asgiref-3.5.2-py3-none-any.whl
+click @ file:///home/victor.oliveira/.cache/pypoetry/artifacts/9d/ca/2f/bc3cc4a294e96f355d01d24ac6fefdde4c6286f9f63b7ce1c91d5f0c22/click-8.1.3-py3-none-any.whl
+fastapi @ file:///home/victor.oliveira/.cache/pypoetry/artifacts/b5/d8/ae/dd7b1c9ec275325325fadd60454229e163689d7c184a7192129a59b756/fastapi-0.78.0-py3-none-any.whl
+h11 @ file:///home/victor.oliveira/.cache/pypoetry/artifacts/b8/da/55/44ffe0c74acbcaf35e29031794ef40115a51cc80bf443005d45c5f58db/h11-0.13.0-py3-none-any.whl
+idna @ file:///home/victor.oliveira/.cache/pypoetry/artifacts/d5/04/80/9c17fd3240a37d12ff2ef042b0306aeb1abd2d8b95f150fd60be938352/idna-3.3-py3-none-any.whl
+pydantic @ file:///home/victor.oliveira/.cache/pypoetry/artifacts/df/d3/01/9525a0f8335a687df1cb247f135ac8ead2347dfd7f53f131a186b1db8f/pydantic-1.9.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+sniffio @ file:///home/victor.oliveira/.cache/pypoetry/artifacts/d5/26/da/4c1b03b71c2d3fdf83bb7c73a0ddb8cf8071e4633d6d1193909c780cc2/sniffio-1.2.0-py3-none-any.whl
+starlette @ file:///home/victor.oliveira/.cache/pypoetry/artifacts/6c/6a/3c/4895203ef83a8bc6a3a4219d78503f5592e165e5ac2b9a959571fdb3bb/starlette-0.19.1-py3-none-any.whl
+typing_extensions @ file:///home/victor.oliveira/.cache/pypoetry/artifacts/42/92/dc/6b3758ddcb04f4bd6dd7af2fddeb1de89e3a962846c5221285fa39a33d/typing_extensions-4.2.0-py3-none-any.whl
+uvicorn @ file:///home/victor.oliveira/.cache/pypoetry/artifacts/6c/f2/b0/f9a7e82f13a3fd621d92f00df39d22857e40414a8375ae665d28014b79/uvicorn-0.17.6-py3-none-any.whl
