@@ -11,8 +11,13 @@ uvicorn = "^0.17.6"
 asyncpg = "^0.25.0"
 tortoise-orm = "^0.19.1"
 aerich = "^0.6.3"
+pytest = "^7.1.2"
+pydantic = "^1.9.1"
+requests = "^2.27.1"
+aiohttp = "^3.8.1"
 
 [tool.poetry.dev-dependencies]
+pytest = "^7.1.2"
 
 
 [tool.aerich]
