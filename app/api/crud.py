@@ -1,9 +1,11 @@
-from typing import Union
+from typing import List, Union
 
-from app.models.pydantic import SummaryPayloadSchema
+from app.api.ping import router
+from app.models.pydantic import SummaryPayloadSchema, SummaryResponseSchema
 from app.models.tortoise import TextSummary
 
 
+@router.post("/", response_model=SummaryResponseSchema, status_code=201)
 async def post(payload: SummaryPayloadSchema) -> int:
     summary = TextSummary(
         url=payload.url,
@@ -20,3 +22,7 @@ async def get(id: int) -> Union[dict, None]:
 
     return None
 
+
+async def get_all() -> List:
+    summaries = await TextSummary.all().values()
+    return summaries
