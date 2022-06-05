@@ -50,6 +50,19 @@ class TestCreateSummary:
         assert response.status_code == 404
         assert response.json()["detail"] == "Summary not found"
 
+        response = test_app_with_db.get("/summaries/0/")
+        assert response.status_code == 422
+        assert response.json() == {
+            "detail": [
+                {
+                    "loc": ["path", "id"],
+                    "msg": "ensure this value is greater than 0",
+                    "type": "value_error.number.not_gt",
+                    "ctx": {"limit_value": 0},
+                }
+            ]
+        }
+
     def test_read_all_summaries(self, test_app_with_db):
         response = test_app_with_db.post(
             "/summaries/", data=json.dumps({"url": "https://foo.bar"})
